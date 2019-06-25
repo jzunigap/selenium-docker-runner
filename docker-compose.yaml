@@ -33,7 +33,7 @@ services:
     image: vinsdocker/selenium-docker
     depends_on:
       - chrome
-      - node-firefox
+      - firefox
     environment:
       - BROWSER=chrome
       - HUB_HOST=hub
