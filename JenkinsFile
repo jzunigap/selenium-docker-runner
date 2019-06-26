@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stages('Pull Latest Image'){
+        stage('Pull Latest Image'){
             steps{
                 sh "docker pull juanzuniga/selenium-docker"
             }
